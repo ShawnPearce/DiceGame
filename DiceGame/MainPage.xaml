@@ -15,6 +15,7 @@
                    TextColor="Black" />
 
          
+            
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
                 <Label Text="Game Mode:" FontSize="16" VerticalOptions="Center" />
                 <Picker x:Name="GameModePicker" 
