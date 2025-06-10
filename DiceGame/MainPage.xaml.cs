@@ -1,4 +1,7 @@
-﻿using DiceGame.Resources.BusinessLogic;
+﻿//Shawn Pearce
+//Dice Game
+
+using DiceGame.Resources.BusinessLogic;
 
 namespace DiceGame;
 
