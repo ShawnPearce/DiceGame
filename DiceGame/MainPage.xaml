@@ -12,7 +12,7 @@
                    FontSize="28"
                    FontAttributes="Bold"
                    HorizontalOptions="Center"
-                   TextColor="Blue" />
+                   TextColor="Black" />
 
          
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
@@ -37,15 +37,15 @@
            
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20" Margin="0,20">
                 <Image x:Name="Dice1Image" 
-                       Source="dice_placeholder.png" 
+                       Source="side_1.png" 
                        WidthRequest="80" 
                        HeightRequest="80" />
                 <Image x:Name="Dice2Image" 
-                       Source="dice_placeholder.png" 
+                       Source="side_1.png" 
                        WidthRequest="80" 
                        HeightRequest="80" />
                 <Image x:Name="Dice3Image" 
-                       Source="dice_placeholder.png" 
+                       Source="side_1.png" 
                        WidthRequest="80" 
                        HeightRequest="80"
                        IsVisible="False" />
@@ -57,7 +57,7 @@
                    FontSize="24"
                    FontAttributes="Bold"
                    HorizontalOptions="Center"
-                   TextColor="Green" />
+                   TextColor="green" />
 
            
             <Label x:Name="StatusLabel" 
@@ -78,7 +78,7 @@
             <Button x:Name="RollButton"
                     Text="Roll Dice"
                     FontSize="20"
-                    BackgroundColor="Green"
+                    BackgroundColor="black"
                     TextColor="White"
                     HeightRequest="60"
                     Margin="0,20"
@@ -88,7 +88,7 @@
             <Button x:Name="ResetButton"
                     Text="Reset Game"
                     FontSize="18"
-                    BackgroundColor="Red"
+                    BackgroundColor="green"
                     TextColor="White"
                     HeightRequest="50"
                     Clicked="OnResetClicked" />
